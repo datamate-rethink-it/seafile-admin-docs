@@ -30,8 +30,8 @@ theme:
   custom_dir: overrides
 
   # icon & favicon
-  #logo: assets/SeaTable256-256.png
-  #favicon: assets/seatable-favicon.ico
+  logo: assets/Seafile256-256.png
+  favicon: assets/seafile-favicon.ico
 
   # custom 404.html
   #static_templates:
