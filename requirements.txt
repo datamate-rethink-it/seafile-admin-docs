@@ -1,0 +1,7 @@
+mkdocs-material
+mkdocs-material-extensions
+mkdocs-redirects
+mkdocs-git-revision-date-localized-plugin
+mkdocs-minify-plugin
+mkdocs-exclude-search
+mkdocs-git-committers-plugin-2

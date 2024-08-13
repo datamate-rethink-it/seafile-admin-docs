@@ -1,0 +1,36 @@
+name: Deploy mkdocs to github pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+
+      - name: install
+        run: pip install -r requirements.txt
+
+      - name: version
+        run: mkdocs --version
+
+      - name: build
+        run: mkdocs build --verbose --strict
+        #env:
+        #  MKDOCS_GIT_COMMITTERS_APIKEY: ${{ secrets.MKDOCS_GIT_COMMITTERS_APIKEY }}
+        #  CI: true
+
+      - name: gh-deploy
+        run: mkdocs gh-deploy --force
+        #env:
+        #  MKDOCS_GIT_COMMITTERS_APIKEY: ${{ secrets.MKDOCS_GIT_COMMITTERS_APIKEY }}
+        #  CI: true

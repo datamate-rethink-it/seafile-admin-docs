@@ -1,0 +1,127 @@
+site_name: Seafile Admin Manual
+site_url: https://datamate-rethink-it.github.io/seafile-admin-docs/
+site_author: datamate GmbH & Co. KG
+site_description: >
+  Seafile Admin Manual (new deployment)
+
+# Repository
+repo_name: datamate-rethink-it/seafile-admin-docs
+repo_url: https://github.com/datamate-rethink-it/seafile-admin-docs/
+
+# Copyright
+copyright: Copyright &copy; 2024 datamate GmbH & Co. KG
+
+# Configuration
+theme:
+  name: material
+  features:
+    - navigation.footer
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections # top-level sections are rendered as groups in the sidebar for viewports above 1220px
+    - navigation.indexes # documents can be directly attached to sections
+    - navigation.top
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - content.code.copy
+    - content.code.annotate # offer a comfortable and friendly way to attach arbitrary content to specific sections of code
+  custom_dir: overrides
+
+  # icon & favicon
+  #logo: assets/SeaTable256-256.png
+  #favicon: assets/seatable-favicon.ico
+
+  # custom 404.html
+  #static_templates:
+  #  - 404.html
+
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - redirects:
+      redirect_maps:
+        "path/demo.md": "maintenance/backup-recovery.md"
+  #- git-committers:
+  #    repository: seatable/seatable-admin-docs
+  #    branch: main
+  #    enabled: !ENV ["CI", false]
+  #    token: !ENV ["MKDOCS_GIT_COMMITTERS_APIKEY"]
+
+hooks:
+  - overrides/hooks/shortcodes.py
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/datamate-rethink-it/
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/u/datamate/seafile
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/christoph-dyllick-brenzinger/
+  #status:
+  #  new: Work in progress
+  #analytics:
+  #  provider: matomo
+  #  site_id: 3
+  #  provider_url: https://wp-stats.seatable.io/
+
+#extra_css:
+#  - assets/stylesheets/extra.css
+#extra_javascript:
+#  - assets/javascripts/extra.js
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - md_in_html
+  - footnotes
+  - toc:
+      permalink: true
+  - codehilite:
+      guess_lang: true
+  - pymdownx.details # creates collapsible elements that hide their content
+  - pymdownx.superfences: # allows 1) nesting of fences 2) custom fences 3) disable indented code
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.keys # make entering and styling keyboard key presses easier
+  - pymdownx.tabbed: # provides a syntax to easily add tabbed Markdown content
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg # Hooks
+
+
+nav:
+  - Introduction:
+      - index.md
+
+  - Installation:
+      - How to start: installation/start.md
+      - Configuration: installation/configuration.md
