@@ -1,7 +1,7 @@
 ## Seafile Admin Docs Repository (work in progress)
 
 > [!IMPORTANT]  
-> This is an initial version of a new deployment method developed by datamate.
+> This is an initial version of a new deployment method developed by [datamate](https://datamate.org), the primary support and sales partner in europe.
 > Only use this if you are aware of the differences regarding the official seafile deployment.
 
 Welcome to the Seafile Admin Docs Repository! 🌊🔍✨
