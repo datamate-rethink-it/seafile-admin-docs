@@ -60,9 +60,9 @@ plugins:
       minify_html: true
   - git-revision-date-localized:
       enable_creation_date: true
-  - redirects:
-      redirect_maps:
-        "path/demo.md": "maintenance/backup-recovery.md"
+  #- redirects:
+  #    redirect_maps:
+  #      "path/demo.md": "maintenance/backup-recovery.md"
   #- git-committers:
   #    repository: seatable/seatable-admin-docs
   #    branch: main
