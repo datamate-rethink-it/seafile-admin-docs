@@ -34,13 +34,13 @@ theme:
   favicon: assets/seafile-favicon.ico
 
   # custom 404.html
-  #static_templates:
-  #  - 404.html
+  static_templates:
+    - 404.html
 
   palette:
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: blue grey
+      accent: amber
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -88,8 +88,8 @@ extra:
   #  site_id: 3
   #  provider_url: https://wp-stats.seatable.io/
 
-#extra_css:
-#  - assets/stylesheets/extra.css
+extra_css:
+  - assets/stylesheets/extra.css
 #extra_javascript:
 #  - assets/javascripts/extra.js
 
