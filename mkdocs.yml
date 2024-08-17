@@ -121,7 +121,40 @@ markdown_extensions:
 nav:
   - Introduction:
       - index.md
+      - Key Features: introduction/key-features-seafile.md
+      - Get started: introduction/get-started.md
 
-  - Installation:
-      - How to start: installation/start.md
-      - Configuration: installation/configuration.md
+  - Docker:
+      - Core concept: docker/concept.md
+      - Requirements: docker/requirements.md
+      - Install and Deploy Seafile:
+          - Deploy Single-Node: docker/single-node.md
+          - Deploy Seafile Cluster: docker/cluster.md
+      - Install Extensions:
+          - Office Editors:
+              - OnlyOffice: docker/extensions/onlyoffice.md
+              - Collabora: docker/extensions/collabora.md
+          - Backup: docker/extensions/restic.md
+      - Manage Seafile:
+          - How to configure: docker/how-to-configure-docker.md
+          - Upgrade Seafile: docker/upgrade.md
+          - Migrate from package installation: docker/migrate.md
+
+  - Kubernetes:
+      - Core concept: k8s/concept.md
+      - Install and Deploy Seafile:
+          - Deploy with Helm: k8s/helm.md
+      - Manage Seafile:
+          - Upgrade Seafile: k8s/upgrade.md
+          - How to configure: k8s/how-to-configure-kubernetes.md
+
+  - Configuration:
+      - Core concept: configuration/concept.md
+      - List of all variables: configuration/available-variables.md
+      - Authentication:
+          - Overview: configuration/authentication/overview.md
+      - Typical configuration examples:
+          - E-Mail Notifications: configuration/examples/mail.md
+          - Customize colors and logo: configuration/examples/color-logo.md
+
+  - Administration: administration/index.md
