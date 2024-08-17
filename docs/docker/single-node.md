@@ -149,13 +149,20 @@ SEAFILE__notification__jwt_private_key=
 
     Seafile use for up to three users is free. If you enjoy Seafile and are contemplating a larger license, [please get in touch with us](mailto:seafile@datamate.org).
 
-We assume that you have a license and that you save it to `/opt/seafile-compose/seafile-license.txt`. If you don't have a license, then comment the part in the yml file, where it mounts the license file to the server:
+We assume that you have a license and that you save it to `/opt/seafile-compose/seafile-license.txt`.
+
+If you don't have a license, then comment the part in the yml file, where it mounts the license file to the server like in the following example.
 
 ```bash
-    #- type: bind
-    #  source: "./seafile-license.txt"
-    #  target: "/shared/seafile/seafile-license.txt"
-    #  read_only: ${SEAFILE_LICENSE_FORCE_READ_ONLY:-false}
+services:
+  seafile:
+    ...
+    volume:
+        - /opt/seafile-server:/shared
+        #- type: bind
+        #  source: "./seafile-license.txt"
+        #  target: "/shared/seafile/seafile-license.txt"
+        #  read_only: ${SEAFILE_LICENSE_FORCE_READ_ONLY:-false}
 ```
 
 #### 5. Fire up the server
