@@ -68,7 +68,8 @@ The expected output should appear as follows.
 
 !!! warning "Don't change these yml files"
 
-    Generally, there's no need to make changes to the different .yml files in most cases. Adjustments should be made only by experienced Docker administrators and then you should create a copy and rename the file.
+    Generally, there's no need to make changes to the different .yml files in most cases. Also they will be overriden with the next update.
+    Instead you should create a copy and rename the file. Adjustments should be made only by experienced Docker administrators.
 
     ```bash
     # Example to create a custom copy:
@@ -165,7 +166,7 @@ services:
         #  read_only: ${SEAFILE_LICENSE_FORCE_READ_ONLY:-false}
 ```
 
-#### 5. Fire up the server
+#### 6. Fire up the server
 
 Now it is time to run the following command to download and initiate the docker images for the initial setup. This process will require some time.
 
