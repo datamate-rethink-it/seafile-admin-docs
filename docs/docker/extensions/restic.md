@@ -52,8 +52,6 @@ echo "RESTIC_PASSWORD=${pw}" >> /opt/seafile-compose/.env
     2. Create a new repo, choose any name and set the **Repo Format: Restic**.
     3. Save the provided **repository url** and use it as `RESTIC_REPOSITORY`.
 
-    ![repository url from borgbase](../../assets/images/backup_with_borgbase_repository.png)
-
     This is all that is necessary to create a secure offsite backup.
 
 #### Other backup targets

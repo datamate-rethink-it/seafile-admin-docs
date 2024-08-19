@@ -110,7 +110,7 @@ Let's go into the details:
     - `SEAHUB__CACHE_HOST`
     - `SEAHUB__CACHE_PORT`
 
-    There's no necessity to modify these values if you use the provided [`seafile-pe.yml`](./compose/seafile-pe.yml) file.
+    There's no necessity to modify these values if you use the provided `seafile-pe.yml` file.
 
     *2. DATABASE*
 
