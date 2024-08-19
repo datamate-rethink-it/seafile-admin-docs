@@ -124,23 +124,23 @@ nav:
       - Key Features: introduction/key-features-seafile.md
       - Get started: introduction/get-started.md
 
-  - Docker:
+  - Install with Docker:
       - Core concept: docker/concept.md
       - Requirements: docker/requirements.md
       - Install and Deploy Seafile:
           - Deploy Single-Node: docker/single-node.md
           - Deploy Seafile Cluster: docker/cluster.md
       - Install Extensions:
-          - Office Editors:
-              - OnlyOffice: docker/extensions/onlyoffice.md
-              - Collabora: docker/extensions/collabora.md
+          - OnlyOffice: docker/extensions/onlyoffice.md
+          - Collabora: docker/extensions/collabora.md
+          - ClamAV: docker/extensions/clamav.md
           - Backup: docker/extensions/restic.md
       - Manage Seafile:
           - How to configure: docker/how-to-configure-docker.md
           - Upgrade Seafile: docker/upgrade.md
           - Migrate from package installation: docker/migrate.md
 
-  - Kubernetes:
+  - Install with Kubernetes:
       - Core concept: k8s/concept.md
       - Install and Deploy Seafile:
           - Deploy with Helm: k8s/helm.md

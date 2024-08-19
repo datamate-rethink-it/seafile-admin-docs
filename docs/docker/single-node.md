@@ -66,16 +66,6 @@ The expected output should appear as follows.
 ├── seafile_storage_classes.json
 ```
 
-!!! warning "Don't change these yml files"
-
-    Generally, there's no need to make changes to the different .yml files in most cases. Also they will be overriden with the next update.
-    Instead you should create a copy and rename the file. Adjustments should be made only by experienced Docker administrators.
-
-    ```bash
-    # Example to create a custom copy:
-    cp seafile-pe.yml custom-seafile-pe.yml
-    ```
-
 #### 2. Create a directory for Elasticsearch
 
 Elastisearch does not run as root user and therefore it is necessary to create the directory for the volume mount upfront. Otherwise elasticsearch has no permission to write into this directory.
@@ -146,25 +136,17 @@ SEAFILE__notification__jwt_private_key=
 
 #### 5. Get a license
 
+We assume that you have a license and that you save it to `/opt/seafile-compose/seafile-license.txt`.
+
+If you don't have a license, then just create an empty license file with this command.
+
+```bash
+touch /opt/seafile-compose/seafile-license.txt
+```
+
 !!! warning "Seafile Enterprise requires a license to start"
 
     Seafile use for up to three users is free. If you enjoy Seafile and are contemplating a larger license, [please get in touch with us](mailto:seafile@datamate.org).
-
-We assume that you have a license and that you save it to `/opt/seafile-compose/seafile-license.txt`.
-
-If you don't have a license, then comment the part in the yml file, where it mounts the license file to the server like in the following example.
-
-```bash
-services:
-  seafile:
-    ...
-    volume:
-        - /opt/seafile-server:/shared
-        #- type: bind
-        #  source: "./seafile-license.txt"
-        #  target: "/shared/seafile/seafile-license.txt"
-        #  read_only: ${SEAFILE_LICENSE_FORCE_READ_ONLY:-false}
-```
 
 #### 6. Fire up the server
 
@@ -179,6 +161,8 @@ Sign in using the credentials you provided in the same file.
 
 :partying_face: **Congratulations!** You've completed the basic setup of your Seafile Server.
 
-## Next steps
+## Next steps: use it or configure it
 
-Your Seafile journey has just begun! While you can dive straight into Seafile, uploading some files, adding users, utilizing the API, and more, there's an array of possibilities to explore.
+Now it's your turn! You can dive right into Seafile: upload files, add users, utilize the API, and explore all its features.
+
+Or, if you prefer, you can start by **configuring your Seafile Server**. In the next section, we'll guide you through [configuring your Seafile Server using the .env file](../docker/how-to-configure-docker.md).

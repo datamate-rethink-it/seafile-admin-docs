@@ -17,17 +17,16 @@ Instead of handling one extensive docker-compose.yml file and configure Seafile 
 - We provide a set of individual yml files and one .env file.
 - Each yml file defines commands for installing a specific component, such as the Seafile Server, web proxy (caddy), or an Office Editor.
 - An accompanying .env file manages environment variables to configure your setup.
-- Every configuration can be done in the .yml files.
 
 ## Layered structure
 
 Think of the .env file as a recipe for your setup and the yml files are like ingredients.
 
-!!! danger "Create copy for custom changes of the yml files"
+!!! danger "Create copy for custom changes of the yml-files"
 
-    Generally, there's no need to modify the YAML files. We provide updated YAML files with each new Seafile version. However, if you wish to make alterations, create a copy and name it something like `custom-...yml`.
+    **Generally, there's no need to modify the yml-files.** We provide updated yml-files with each new Seafile version that overwrite your existing yml-files. However, if you wish to make alterations, create a copy and name it something like `custom-...yml`.
 
-You can configure components in the .env file, determining which ones to install. Start with essential components like Seafile Server and Caddy web proxy.
+You can configure components in the `.env` file, determining which ones to install. Start with essential components like Seafile Server and Caddy web proxy.
 
 Example in the .env file:
 
@@ -35,7 +34,7 @@ Example in the .env file:
 COMPOSE_FILE='caddy.yml,seafile-pe.yml'
 ```
 
-By adding or removing yml files from this list, you control the composition during runtime, eliminating the need for a single, extensive docker-compose.yml file.
+By adding or removing yml-files from this list, you control the composition during runtime, eliminating the need for a single, extensive docker-compose.yml file.
 
 With this understanding, the subsequent installation descriptions should be straightforward to follow.
 
