@@ -513,8 +513,15 @@
   }
 }
 
-.md-typeset .tabbed-block {
-  
+.md-typeset .tabbed-block { 
   background-color: #f9f9f9;
   padding: 10px 20px;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .tabbed-block {
+  background-color: #282e3c;
+}
+
+.md-typeset tbody code {
+  word-break: unset;
 }
