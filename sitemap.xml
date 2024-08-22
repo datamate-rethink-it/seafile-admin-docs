@@ -2,122 +2,122 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://datamate-rethink-it.github.io/seafile-admin-docs/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://datamate-rethink-it.github.io/seafile-admin-docs/administration/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://datamate-rethink-it.github.io/seafile-admin-docs/configuration/available-variables/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://datamate-rethink-it.github.io/seafile-admin-docs/configuration/concept/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://datamate-rethink-it.github.io/seafile-admin-docs/configuration/authentication/overview/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://datamate-rethink-it.github.io/seafile-admin-docs/configuration/examples/color-logo/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://datamate-rethink-it.github.io/seafile-admin-docs/configuration/examples/mail/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://datamate-rethink-it.github.io/seafile-admin-docs/docker/cluster/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://datamate-rethink-it.github.io/seafile-admin-docs/docker/concept/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://datamate-rethink-it.github.io/seafile-admin-docs/docker/how-to-configure-docker/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://datamate-rethink-it.github.io/seafile-admin-docs/docker/migrate/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://datamate-rethink-it.github.io/seafile-admin-docs/docker/requirements/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://datamate-rethink-it.github.io/seafile-admin-docs/docker/single-node/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://datamate-rethink-it.github.io/seafile-admin-docs/docker/upgrade/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://datamate-rethink-it.github.io/seafile-admin-docs/docker/extensions/clamav/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://datamate-rethink-it.github.io/seafile-admin-docs/docker/extensions/collabora/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://datamate-rethink-it.github.io/seafile-admin-docs/docker/extensions/onlyoffice/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://datamate-rethink-it.github.io/seafile-admin-docs/docker/extensions/restic/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://datamate-rethink-it.github.io/seafile-admin-docs/introduction/get-started/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://datamate-rethink-it.github.io/seafile-admin-docs/introduction/key-features-seafile/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://datamate-rethink-it.github.io/seafile-admin-docs/k8s/concept/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://datamate-rethink-it.github.io/seafile-admin-docs/k8s/helm/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://datamate-rethink-it.github.io/seafile-admin-docs/k8s/how-to-configure-kubernetes/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://datamate-rethink-it.github.io/seafile-admin-docs/k8s/upgrade/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
