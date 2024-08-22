@@ -6,7 +6,7 @@ Seafile requires multiple configuration files. In the past these configuration f
 
 Using this new deployment approach, you will only configure Seafile with enviroment variables. Any settings that you would normally configure in one of the configuration files can instead be made through environment variables.
 
-The logic slighly varies for the different configuration files and will be described in all details in the **Configuration** Chapter.
+The logic slighly varies for the different configuration files and will be described in all details in the [Configuration Chapter](../configuration/concept.md).
 
 **For now it is sufficient to understand, that you only have to add configurations in your .env file. All configuration will be passed automatically to the seafile container and then translated into configuration files.**
 
