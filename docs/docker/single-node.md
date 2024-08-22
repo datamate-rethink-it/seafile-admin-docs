@@ -138,7 +138,11 @@ SEAFILE__notification__jwt_private_key=
 
 We assume that you have a license and that you save it to `/opt/seafile-compose/seafile-license.txt`.
 
-If you don't have a license, you still can use it with up to three users for free. Still, you need to uncomment the seafile-license mount in your `seafile-pe.yml`. To avoid that your change is overwritten with the update, it is recommended that you create a `custom-seafile-pe.yml` instead.
+If you don't have a license, just create an empty license file to with the following command to use seafile with up to three users for free.
+
+```bash
+touch /opt/seafile-compose/seafile-license.txt
+```
 
 !!! warning "Do you need more users for your Seafile Enterprise?"
 
