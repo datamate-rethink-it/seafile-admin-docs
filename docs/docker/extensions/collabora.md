@@ -37,6 +37,9 @@ echo -e "\n# collabora online" >> .env
 echo "SEAHUB__OFFICE_SERVER_TYPE='CollaboraOffice'" >> .env
 echo "SEAHUB__ENABLE_OFFICE_WEB_APP=True" >> .env
 echo "SEAHUB__OFFICE_WEB_APP_BASE_URL='https://${SEAFILE_SERVER_HOSTNAME}:6232/hosting/discovery'" >> .env
+echo "SEAHUB__OFFICE_WEB_APP_FILE_EXTENSION='odp,ods,odt,odg,xls,xlsb,xlsm,xlsx,ppsx,ppt,pptm,pptx,doc,docm,docx'" >> .env
+echo "SEAHUB__ENABLE_OFFICE_WEB_APP_EDIT=true" >> .env
+echo "SEAHUB__OFFICE_WEB_APP_EDIT_FILE_EXTENSION='odp,ods,odt,odg,xls,xlsb,xlsm,xlsx,ppsx,ppt,pptm,pptx,doc,docm,docx'" >> .env
 ```
 
 #### Download collabora and restart

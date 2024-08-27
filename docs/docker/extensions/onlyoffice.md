@@ -37,10 +37,10 @@ echo -e "\n# OnlyOffice" >> .env
 echo "ONLYOFFICE_JWT_SECRET='$(pwgen -s 40 1)'" >> .env
 echo "SEAHUB__ENABLE_ONLYOFFICE=True" >> .env
 echo "SEAHUB__ONLYOFFICE_APIJS_URL='https://${SEAFILE_SERVER_HOSTNAME}:6233/web-apps/apps/api/documents/api.js'" >> .env
-echo "SEAHUB__ONLYOFFICE_FILE_EXTENSION=('doc', 'docx', 'ppt', 'pptx', 'xls', 'xlsx', 'odt', 'fodt', 'odp', 'fodp', 'ods', 'fods')" >> .env
-echo "SEAHUB__ONLYOFFICE_EDIT_FILE_EXTENSION=('docx', 'pptx', 'xlsx')" >> .env
-echo "SEAHUB__ONLYOFFICE_FORCE_SAVE=True" > .env
-echo "SEAHUB__ONLYOFFICE_JWT_SECRET='$(pwgen -s 40 1)'" >> .env
+echo "SEAHUB__ONLYOFFICE_FILE_EXTENSION='doc,docx,ppt,pptx,xls,xlsx,odt,fodt,odp,fodp,ods,fods'" >> .env
+echo "SEAHUB__ONLYOFFICE_EDIT_FILE_EXTENSION='docx,pptx,xlsx'" >> .env
+echo "SEAHUB__ONLYOFFICE_FORCE_SAVE=True" >> .env
+echo 'SEAHUB__ONLYOFFICE_JWT_SECRET=${ONLYOFFICE_JWT_SECRET}' >> .env
 ```
 
 #### Download onlyoffice and restart
