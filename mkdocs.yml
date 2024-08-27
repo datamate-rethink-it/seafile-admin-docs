@@ -138,7 +138,8 @@ nav:
       - Manage Seafile:
           - How to configure: docker/how-to-configure-docker.md
           - Upgrade Seafile: docker/upgrade.md
-          - Migrate from package installation: docker/migrate.md
+          - Migrate from package installation: docker/migrate-from-package-installation.md
+          - Migrate from Docker installation: docker/migrate-from-docker-deployment.md
 
   - Install with Kubernetes:
       - Core concept: k8s/concept.md
