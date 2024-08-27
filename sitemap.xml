@@ -51,7 +51,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://datamate-rethink-it.github.io/seafile-admin-docs/docker/migrate/</loc>
+         <loc>https://datamate-rethink-it.github.io/seafile-admin-docs/docker/migrate-from-docker-deployment/</loc>
+         <lastmod>2024-08-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://datamate-rethink-it.github.io/seafile-admin-docs/docker/migrate-from-package-installation/</loc>
          <lastmod>2024-08-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
