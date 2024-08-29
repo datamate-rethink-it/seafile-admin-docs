@@ -7,7 +7,7 @@ Alright, let's dive in. This article will guide you through the process of insta
     Watch a brief English video demonstrating all the essential steps:
 
     :fontawesome-brands-youtube:{ style="color: #EE0F0F" }
-    __[How to install SeaTable within minutes]__ :octicons-clock-24: 10m
+    __[New Seafile Deployment with Environment Variables]__ :octicons-clock-24: 10m
     [New Seafile Deployment with Environment Variables]: https://www.youtube.com/watch?v=t1UkT1dtopI
 
 !!! success "Installation made easy"
