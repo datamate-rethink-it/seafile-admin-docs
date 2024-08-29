@@ -2,6 +2,14 @@
 
 Alright, let's dive in. This article will guide you through the process of installing a Seafile server with a Caddy web server. By the end of this article, your new Seafile server will be accessible via HTTPS with your custom domain. To begin, open a root shell on your server.
 
+!!! tip "Want to watch a step-by-step video instead of reading a manual?"
+
+    Watch a brief English video demonstrating all the essential steps:
+
+    :fontawesome-brands-youtube:{ style="color: #EE0F0F" }
+    __[How to install SeaTable within minutes]__ :octicons-clock-24: 10m
+    [New Seafile Deployment with Environment Variables]: https://www.youtube.com/watch?v=t1UkT1dtopI
+
 !!! success "Installation made easy"
 
     Most commands that are required to install a Seafile Server are provided in a way, that you can just simply copy and paste the commands into your command line. Use the (:material-content-copy:) icon at the top-right of the code boxes.
