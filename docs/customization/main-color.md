@@ -1,7 +1,6 @@
 # Change the main color
 
-TODO: color fix.
-Seafile has an orange main color with the color-code `#FF8000`. If this color does not match your custom logo, it might be useful to replace this main color with another color of your choice.
+Seafile has an orange main color. If this color does not match your custom logo, it might be useful to replace this main color with another color of your choice.
 
 To do this we force Seafile to use custom css code to overwrite the main color.
 
@@ -41,7 +40,7 @@ The first step is you use the following color picker and select a new main color
 
 <!--TODO: verlinken...-->
 
-Save the css-code to your `/opt/seafile-compose/` folder and follow this guide to activate custom css. Don't forget to restart your container.
+Save the css-code to your `/opt/seafile-compose/` folder and follow [this guide to activate custom css](../custom-css). Don't forget to restart your container.
 
 ## Configuration via the web interface
 
