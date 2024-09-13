@@ -90,8 +90,8 @@ extra:
 
 extra_css:
   - assets/stylesheets/extra.css
-#extra_javascript:
-#  - assets/javascripts/extra.js
+extra_javascript:
+  - assets/javascripts/extra.js
 
 # Extensions
 markdown_extensions:
@@ -156,6 +156,15 @@ nav:
           - Overview: configuration/authentication/overview.md
       - Typical configuration examples:
           - E-Mail Notifications: configuration/examples/mail.md
-          - Customize colors and logo: configuration/examples/color-logo.md
+
+  - UI Customization:
+      - Overview: customization/overview.md
+      - Site Title: customization/site-title.md
+      - Logo: customization/logo.md
+      - Main Color: customization/main-color.md
+      - Custom CSS: customization/custom-css.md
 
   - Administration: administration/index.md
+## TODO:
+# disable web settings
+# elasticsearch in separate yml file with loader, that changes the permission...
