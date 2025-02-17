@@ -21,9 +21,10 @@ sed -i "s/COMPOSE_FILE='\(.*\)'/COMPOSE_FILE='\1,clamav.yml'/" /opt/seafile-comp
 To activate the scans, just add these variables to your .env file:
 
 ```bash
+SEAFILE__virus_scan__enabled=true
 SEAFILE__virus_scan__scan_command='clamdscan'
-SEAFILE__virus_scan__virus_mode='1'
-SEAFILE__virus_scan__nonvirus_mode='0'
+SEAFILE__virus_scan__virus_code='1'
+SEAFILE__virus_scan__nonvirus_code='0'
 SEAFILE__virus_scan__scan_interval='5'
 SEAFILE__virus_scan__scan_size_limit='20'
 SEAFILE__virus_scan__threads='2'
