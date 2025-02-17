@@ -163,6 +163,7 @@ nav:
       - Logo: customization/logo.md
       - Main Color: customization/main-color.md
       - Custom CSS: customization/custom-css.md
+      - Page Templates: customization/page-templates.md
 
   - Administration: administration/index.md
 ## TODO:
