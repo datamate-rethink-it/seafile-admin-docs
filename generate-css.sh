@@ -9,10 +9,10 @@ echo_color() {
 }
 
 if [[ -z "${1-}" ]]; then
-    echo_color "No Tag parameter detected, using 'datamate/seafile-professional:latest'"
+    echo_color "No Tag parameter detected, using 'seafileltd/seafile-pro-mc:latest'"
     SEAFILE_VERSION='latest'
 else
-    echo_color "Input parameter detected, using 'datamate/seafile-professional:${1}'"
+    echo_color "Input parameter detected, using 'seafileltd/seafile-pro-mc:${1}'"
     SEAFILE_VERSION="$1"
 fi
 
@@ -21,9 +21,9 @@ echo_color "The script will continue in 5 seconds..."
 sleep 5
 
 echo "... let's go"
-echo "... Download SeaTable Container"
+echo "... Download Seafile Container"
 # Concat CSS files from container
-docker run --rm -it --pull=always --quiet "datamate/seafile-professional:${SEAFILE_VERSION}" find /opt/seafile/seafile-pro-server-${SEAFILE_VERSION}/seahub/media ! -name 'fontawesome*.css' ! -name 'bootstrap*.css' -name '*.css' -exec cat {} \; > ./custom.css
+docker run --rm -it --pull=always --quiet "seafileltd/seafile-pro-mc:${SEAFILE_VERSION}" find /opt/seafile/seafile-pro-server-${SEAFILE_VERSION}/seahub/media ! -name 'fontawesome*.css' ! -name 'bootstrap*.css' -name '*.css' -exec cat {} \; > ./custom.css
 
 echo "... create initial custom.css"
 # Manipulate custom.css

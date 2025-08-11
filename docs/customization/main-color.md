@@ -10,6 +10,32 @@ The first step is you use the following color picker and select a new main color
 
     You should select a color that is dark enough to be a good background for white font color. To switch also the font color from white to black is not yet part of this manual.
 
+=== "Version 13.x"
+
+    Select a color and you will get the correspondent css code in the following grey box.
+
+    <input type="color" id="cc_v13.x" onchange="update_custom_color('v13.x')" value="#ff8000" style="width:100px">
+    <div id="cc_output_v13.x">
+    ```
+    Select a color and the css code will be created...
+    ```
+    </div>
+
+    Use the copy-and-paste icon (:material-content-copy:) on the top right of the grey box to copy the complete css code to your clipboard.
+
+=== "Version 12.x"
+
+    Select a color and you will get the correspondent css code in the following grey box.
+
+    <input type="color" id="cc_v12.x" onchange="update_custom_color('v12.x')" value="#ff8000" style="width:100px">
+    <div id="cc_output_v12.x">
+    ```
+    Select a color and the css code will be created...
+    ```
+    </div>
+
+    Use the copy-and-paste icon (:material-content-copy:) on the top right of the grey box to copy the complete css code to your clipboard.
+
 === "Version 11.x"
 
     Select a color and you will get the correspondent css code in the following grey box.
