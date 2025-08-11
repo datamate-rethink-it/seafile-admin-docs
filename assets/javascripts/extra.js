@@ -93,6 +93,7 @@ function update_custom_color(version) {
 .login-panel .submit:focus { border-color: ##maincolor##;}
 .menu-group .menu-group-item[data-active=true]{color:##maincolor##}
 .metadata-gallery-image-item-selected{border:2px solid ##maincolor##}
+.nav .nav-item .nav-link.active { color: ##maincolor##;}
 .nav-indicator-container:before{background:##maincolor##;border-radius:2px;bottom:-2px;content:"";height:2px;position:absolute;transform:translateX(var(--indicator-offset));transition:transform .3s ease;width:var(--indicator-width)}
 .nav-pills .nav-item .nav-link.active { background-color: ##maincolor##; color: var(--bs-highlight-color); border-bottom: 0.125rem solid transparent;}
 .nav-pills .nav-item .nav-link.active{background-color: ##maincolor##; color:#fff;}
@@ -269,6 +270,7 @@ button {word-break: normal;}
 .menu-group .menu-group-item[data-active=true]{color:##maincolor##}
 .metadata-gallery-image-item-selected{border:2px solid ##maincolor##}
 .nav .nav-item .nav-link.active { color: ##maincolor##; text-decoration: none; border-bottom-color: ##maincolor##; z-index: 1;}
+.nav .nav-item .nav-link.active { color: ##maincolor##;}
 .nav-pills .nav-item .nav-link.active { background-color: ##maincolor##; color: #fff; border: none;}
 .nav-pills .nav-item .nav-link.active{background-color: ##maincolor##; color:#fff;}
 .nav-pills .nav-item .nav-link:hover {background-color: ##maincolor##30;}
