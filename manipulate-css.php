@@ -92,6 +92,9 @@ $final_css[] = '.nav-pills .nav-item .nav-link:hover {background-color: ##mainco
 .dropdown-item:hover, .dropdown-item:focus {color: #333; background-color: rgba(##mainrgba##,.20);}
 .show>.btn-secondary.dropdown-toggle.dropdown-item{color: #333; background-color: rgba(##mainrgba##,.20);}';
 
+// added with version 13
+$final_css[] = '.nav .nav-item .nav-link.active { color: ##maincolor##;}';
+
 // button hover effect
 $final_css[] = '.btn-primary:hover{background-color: rgba(##mainrgba##,.75); border-color: rgba(##mainrgba##,.75);}
 .btn-primary:not(:disabled):not(.disabled):active{background-color: rgba(##mainrgba##,.75); border-color: rgba(##mainrgba##,.75);}';
@@ -107,7 +110,6 @@ $final_css[] = '.nav{flex-wrap:inherit !important;}';
 
 // button word-break
 $final_css[] = 'button {word-break: normal;}';
-
 
 // implode array
 $final_css_string = implode("\n",$final_css);
