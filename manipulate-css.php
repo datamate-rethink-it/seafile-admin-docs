@@ -7,7 +7,7 @@ if (count($argv) != 2) {
     exit(1);
 }
 
-$orange_codes = '/#(f59f00|feac74|f89a68|eb8205|f19645|feefb8|e0873b|ee8204|f7941d|ea8102|f93|ee8221|ed7b16|d96f10|f3af7d|feaa7c|cb8a5d|feab79|ff9800|ec8000|eb9205|d98100|ff8000)/';
+$orange_codes = '/#(f59f00|feac74|f89a68|eb8205|f19645|feefb8|e0873b|ee8204|f7941d|ea8102|f93|ee8221|ed7b16|d96f10|f3af7d|feaa7c|cb8a5d|feab79|ff9800|ec8000|eb9205|d98100|ff8000|ed7109)/';
 $rgba_codes = '/(rgba\(255,152,0|rgba\(255,167,38)/';   
 $final_css = array();
 $placeholder = '##maincolor##';
@@ -88,7 +88,7 @@ $final_css[] = '.nav-pills .nav-item .nav-link:hover {background-color: ##mainco
 .side-tabnav-tabs .tab a:hover {background-color: ##maincolor##30;text-decoration: none}
 .tree-node-inner-hover{background-color:##maincolor##30;border-radius:.25rem}
 .side-panel .nav .nav-link.active:hover{background-color: ##maincolor##;}
-.nav-pills .nav-item .nav-link.active{background-color: ##maincolor##; color:#fff !important;}
+.nav-pills .nav-item .nav-link.active{background-color: ##maincolor##; color:#fff;}
 .dropdown-item:hover, .dropdown-item:focus {color: #333; background-color: rgba(##mainrgba##,.20);}
 .show>.btn-secondary.dropdown-toggle.dropdown-item{color: #333; background-color: rgba(##mainrgba##,.20);}';
 
